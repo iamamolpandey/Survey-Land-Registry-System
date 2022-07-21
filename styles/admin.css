@@ -1,0 +1,101 @@
+form {
+    
+    padding: 20px;
+    margin: 0 30% 0 30%;
+}
+
+
+@media screen and (max-width: 778px) {
+    form {
+
+        padding: 20px;
+        margin: 0 10% 0 10%;
+    }
+}
+/*assign full width inputs*/
+ 
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/*set a style for the buttons*/
+body{
+    background: rgb(226, 137, 29);
+    background: radial-gradient(circle, rgb(226, 111, 29) 0%, rgba(222,247,255,1) 75%);
+  } 
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+/* set a hover effect for the button*/
+ 
+btn:hover {
+    opacity: 0.8;
+}
+/*set extra style for the cancel button*/
+ 
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+/*centre the display image inside the container*/
+ 
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+/*set image properties*/
+ 
+img.avatar {
+    width: 22%;
+    border-radius: 50%;
+
+}
+/*set padding to the container*/
+ 
+.container {
+    padding: 16px;
+}
+/*set the forgot password text*/
+ 
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/*set styles for span and cancel button on small screens*/
+ 
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 778px) {
+    img.avatar {
+        width: 30%;
+        border-radius: 50%;
+    }
+}
+
+
+@media screen and (max-width: 778px) {
+    img.avatar {
+        width: 30%;
+        border-radius: 50%;
+    }
+}
